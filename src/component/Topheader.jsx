@@ -19,7 +19,7 @@ const Topheader = () => {
         </div>
         <div className="call-text">
           <div className="call-text1">Call Us:</div>
-          <div className="call-text2 text__hover">+7465736873</div>
+          <div className="call-text2 text__hover">(+1)-(44)-45553337/45552227</div>
         </div>
       </div>
       <div className="email">
@@ -28,7 +28,7 @@ const Topheader = () => {
         </div>
         <div className="email-text">
           <div className="email-text1">Email Us:</div>
-          <div className="email-text2 text__hover">finlo34@.com</div>
+          <div className="email-text2 text__hover">sarvam@sarvamsafet.com</div>
         </div>
       </div>
       <div className="opening">
