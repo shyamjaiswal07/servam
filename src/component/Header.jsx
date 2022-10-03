@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css'
 import Topheader from './Topheader';
+import {NavLink} from 'react-router-dom'
 import SearchIcon from '@mui/icons-material/Search';
 import SportsMotorsportsIcon from '@mui/icons-material/SportsMotorsports';
 import VisibilityIcon from '@mui/icons-material/Visibility';
@@ -17,33 +18,33 @@ const Header = () => {
     <div className="botton__nav">
     <ul className='nav__Links'>  
    <li className="sub-menu-parent" tab-index="0">
-       <a href="#">HOME</a></li>
+       <NavLink to="/">HOME</NavLink></li>
        <li className="sub-menu-parent" tab-index="0">
-       <a href="#">ABOUT US</a></li>
+       <NavLink to="/about">ABOUT US</NavLink></li>
      <li className="sub-menu-parent" tab-index="0">
-       <a href="http://google.com">PRODUCTS</a>
+       <NavLink to="/product">PRODUCTS</NavLink>
        <ul className="sub-menu">
-         <li> <span><SportsMotorsportsIcon /></span> <a href="#"> Head Protection</a></li>
-         <li><span><VisibilityIcon /></span> <a href="#">Eye Protection</a></li>
-         <li><span><CleanHandsIcon /></span> <a href="#">Hand Protection</a></li>
-         <li><span><DoNotStepIcon /></span><a href="#">Feet Protection</a></li>
-         <li><span><LocalFireDepartmentIcon /></span><a href="#">Fire Protection</a></li>
-         <li><span><AddRoadIcon /></span><a href="#">Raod Protection</a></li>
+         <li><div className='nav__dropdown'><span><SportsMotorsportsIcon /></span> <NavLink to="/"> Head Protection</NavLink></div></li>
+         <li><div className='nav__dropdown'><span><VisibilityIcon /></span> <NavLink to="/">Eye Protection</NavLink></div></li>
+         <li><div className='nav__dropdown'><span><CleanHandsIcon /></span> <NavLink to="/">Hand Protection</NavLink></div></li>
+         <li><div className='nav__dropdown'><span><DoNotStepIcon /></span><NavLink to="/">Feet Protection</NavLink></div></li>
+         <li><div className='nav__dropdown'><span><LocalFireDepartmentIcon /></span><NavLink to="/">Fire Protection</NavLink></div></li>
+         <li><div className='nav__dropdown'><span><AddRoadIcon /></span><NavLink to="/">Raod Protection</NavLink></div></li>
        </ul>
      </li>
      <li className="sub-menu-parent buisness__link" tab-index="0">
-       <a href="#">BUISNESS</a>
+       <NavLink to="/buisness">BUISNESS</NavLink>
        <ul className="sub-menu">
-         <li><a href="#">Regional Channel Partners</a></li>
-         <li><a href="#">International Channel Partners</a></li>
+         <li><NavLink to="/">Regional Channel Partners</NavLink></li>
+         <li><NavLink to="/">International Channel Partners</NavLink></li>
         
        </ul>
      </li>
      <li className="sub-menu-parent" tab-index="0">
-       <a href="#">CAREERS</a></li>
+       <NavLink to="/career">CAREERS</NavLink></li>
        
      <li className="sub-menu-parent" tab-index="0">
-       <a href="#">CONTACT US</a></li>
+       <NavLink to="/contact">CONTACT US</NavLink></li>
        {/* <li><input className="Search_bar" placeholder="Search"></input> <SearchIcon /></li> */}
     
        <div className='serch__bar'>
@@ -51,7 +52,7 @@ const Header = () => {
             <input placeholder="Search..."></input>
 
             <div className="Search_icon">
-             <SearchIcon />
+             <SearchIcon color='white'/>
             </div>
           </div>
         </div>
