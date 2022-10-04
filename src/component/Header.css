@@ -124,7 +124,6 @@ font-weight: 600;
   .address{
     width: auto;
    height: 80px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   background-color: white;
   padding: 10px 0;
