@@ -1,8 +1,11 @@
 import React from 'react'
+import SwipeableTextMobileStepper from '../component/Crousal'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <SwipeableTextMobileStepper />
+    </>
   )
 }
 
