@@ -1,11 +1,6 @@
 import React from "react";
 import SwipeableTextMobileStepper from "../component/Crousal";
 import "./PageStyles/Home.css";
-// import Card from "@mui/material/Card";
-// import CardContent from "@mui/material/CardContent";
-// import CardMedia from "@mui/material/CardMedia";
-// import Typography from "@mui/material/Typography";
-// import { CardActionArea } from "@mui/material";
 import youtube from "../images/youtube.png";
 import Album from "../component/Archeivment";
 
