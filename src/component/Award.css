@@ -1,0 +1,8 @@
+.award__pic{
+   
+    transition: 0.3s;
+}
+.award__pic:hover {
+   
+    transform: scale(1.1);
+}

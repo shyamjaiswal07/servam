@@ -1,4 +1,5 @@
 import React from 'react'
+import Album from '../component/Archeivment'
 import SwipeableTextMobileStepper from '../component/Crousal'
 import Mission from '../component/Mission'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <>
     <SwipeableTextMobileStepper />
     < Mission />
+    <Album />
     </>
   )
 }
