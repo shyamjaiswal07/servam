@@ -2,21 +2,22 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Box, CardActionArea } from '@mui/material';
-import styled from "styled-components";
+import { Box, CardActionArea, Container } from '@mui/material';
+import './Mission.css'
+// import styled from "styled-components";
 import youtube from '../images/youtube.png'
 
 const Mission = () => {
   return (
  
-   <Media>
-   <Box>
-   <Card>
-      <CardActionArea className='media_'>
+//    <Media>
+<Container maxWidth="xl" className='main__container'>
+ <Card className='card' >
+      <CardActionArea className="mission">
         <CardMedia
-        
+        className='youtube__link'
           component="img"
-          height="140"
+          height="240"
           image={youtube}
           alt="green iguana"
         />
@@ -30,18 +31,19 @@ const Mission = () => {
           </Typography>
         </CardContent>
       </CardActionArea>
+      
     </Card>
-   </Box>
-   </Media>
+
+    </Container>
  
   )
 }
 
-const Media = styled.Box`
-mCardActionArea{
-display:flex;
-}
-`
+// const Media = styled.Box`
+// mCardActionArea{
+// display:flex;
+// }
+// `
 export default Mission;
 
 

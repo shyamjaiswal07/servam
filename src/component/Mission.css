@@ -1,0 +1,23 @@
+.main__container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #95c12b !important;
+    height:  340px;
+}
+
+.card{
+    background-color: #95c12b !important;
+}
+.card:hover{
+    border: none !important;
+    outline: none !important;
+}
+
+.mission{
+    display: flex !important;
+}
+.youtube__link{
+    width: 30% !important;
+    border: 4px solid white;
+}
