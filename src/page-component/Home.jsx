@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-import Album from '../component/Archeivment'
-import SwipeableTextMobileStepper from '../component/Crousal'
-import Mission from '../component/Mission'
-=======
 import React from "react";
 import SwipeableTextMobileStepper from "../component/Crousal";
 import "./PageStyles/Home.css";
@@ -13,16 +7,11 @@ import "./PageStyles/Home.css";
 // import Typography from "@mui/material/Typography";
 // import { CardActionArea } from "@mui/material";
 import youtube from "../images/youtube.png";
->>>>>>> f2ab25f02e7b09dd2cf93f64e83b538fd003efaf
+import Album from "../component/Archeivment";
 
 const Home = () => {
   return (
     <>
-<<<<<<< HEAD
-    <SwipeableTextMobileStepper />
-    < Mission />
-    <Album />
-=======
       <SwipeableTextMobileStepper />
       <div className="card_style">
         <div className="shy">
@@ -39,7 +28,7 @@ const Home = () => {
           </div>
         </div>
       </div>
->>>>>>> f2ab25f02e7b09dd2cf93f64e83b538fd003efaf
+      <Album />
     </>
   );
 };
