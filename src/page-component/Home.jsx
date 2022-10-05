@@ -3,11 +3,12 @@ import SwipeableTextMobileStepper from "../component/Crousal";
 import "./PageStyles/Home.css";
 import youtube from "../images/youtube.png";
 import Album from "../component/Archeivment";
+import Footer from "../component/Footer";
 
 const Home = () => {
   return (
     <>
-      <SwipeableTextMobileStepper />
+      <SwipeableTextMobileStepper  />
       <div className="card_style">
         <div className="shy">
           <div className="imgStyle">
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
       </div>
       <Album />
+      <Footer/>
     </>
   );
 };
