@@ -1,20 +1,7 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useEffect, useState } from 'react'
 import './Counter.css'
 
 const Counter = () => {
- 
-    // const [count, setcount] = useState(0);
-    // useEffect(() => {
-      
-    //     let target = 10000;
-    //     if(count <= target){
-    //         setTimeout(() => {
-    //             setcount(count+200);
-    //         }, 100);
-    //     }
-     
-    // }, [])
-    
 
   return (
     <div className='bg-img'>

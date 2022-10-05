@@ -1,11 +1,11 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import CssBaseline from '@mui/material/CssBaseline';
+// import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import './Award.css';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+
 import award from '../images/award.png'
 import award2 from '../images/award2.png'
 import award3 from '../images/award3.png'
@@ -29,7 +29,7 @@ const images = [
         imgPath: award5
       },
   ];
-const theme = createTheme();
+
 
 export default function Album() {
   return (

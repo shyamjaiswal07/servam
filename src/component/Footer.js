@@ -1,5 +1,6 @@
 import React from "react";
-import Container from "@mui/material/Container";
+import './Footer.css';
+// import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -11,7 +12,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Footer = () => {
   return (
-    <footer style={{ marginTop: "20px" }}>
+    <footer className="footer" style={{ marginTop: "20px" }}>
       <Box
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 1, sm: 5 }}
@@ -51,12 +52,12 @@ const Footer = () => {
 
             <Grid item xs={10} sm={2}>
               <Box style={{ fontWeight: "600" }}>Messages</Box>
-              <span><FacebookIcon/></span>
-              <span><InstagramIcon/></span>
-              <span><YouTubeIcon/></span>
-              <span><WhatsAppIcon/></span>
-              <span><TwitterIcon/></span>
-              <span><LinkedInIcon/></span>
+              <span><FacebookIcon  /></span>
+              <span><InstagramIcon /></span>
+              <span><YouTubeIcon /></span>
+              <span><WhatsAppIcon /></span>
+              <span><TwitterIcon /></span>
+              <span><LinkedInIcon /></span>
               
             </Grid>
           </Grid>
