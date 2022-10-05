@@ -1,3 +1,4 @@
+
 .image__slider{
     width: 100%;
     background-size: contain;
@@ -17,4 +18,5 @@
     letter-spacing: 5px;
     text-align: center;
     border-radius: 12px;
+    
 }
