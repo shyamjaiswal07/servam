@@ -6,3 +6,10 @@
    
     transform: scale(1.1);
 }
+.award_container{
+    text-align: center;
+}
+.award_container p{
+    color: black;
+    margin-bottom: 50px;
+}

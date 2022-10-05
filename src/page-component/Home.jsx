@@ -3,6 +3,7 @@ import SwipeableTextMobileStepper from "../component/Crousal";
 import "./PageStyles/Home.css";
 import youtube from "../images/youtube.png";
 import Album from "../component/Archeivment";
+import Counter from "../component/Counter";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         </div>
       </div>
       <Album />
+      <Counter />
     </>
   );
 };

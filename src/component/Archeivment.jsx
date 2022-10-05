@@ -59,11 +59,13 @@ const theme = createTheme();
 
 export default function Album() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    // <ThemeProvider theme={theme}>
+    //   <CssBaseline />
      
       <main>
-        <Container>
+        <Container className='award_container'>
+          <h1>Wall Of Fame</h1>
+          <p>All Roads That to succes have to pass through hard work boulevard,at some point of time.</p>
           {/* End hero unit */}
           <Grid container spacing={4}>
             {images.map((card) => (
@@ -85,6 +87,6 @@ export default function Album() {
           </Grid>
         </Container>
       </main>
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 }

@@ -927,25 +927,6 @@ padding-top: 10px;
    width: 100%;
    margin-top: -30px;
 }
-.backgroundimg>p{
-   font-size: 20px;
-   padding-top: 100px;font-weight: bolder;
-    color: white;
-    font-weight: 700;
-    font-family: Heebo, sans-serif;
-    font-size: 25px;
-    line-height: 70px;
-    font-style: normal;
-    padding-left: 50px;
-    padding-right: 20px;
-}
-.client{
-   width: 90%;
-   height: 30%;
-   margin-top: 100px;
-   margin-left: 70px;
-   display: flex;
-}
 .amount1{
    width: 20%;
    margin-left: 60px;
