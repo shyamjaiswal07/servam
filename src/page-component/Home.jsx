@@ -3,11 +3,11 @@ import SwipeableTextMobileStepper from "../component/Crousal";
 import "./PageStyles/Home.css";
 import youtube from "../images/youtube.png";
 import Album from "../component/Archeivment";
-<<<<<<< HEAD
+
 import Counter from "../component/Counter";
-=======
+
 import Footer from "../component/Footer";
->>>>>>> 3ff8cb90f9f89a1ef31e301860a37ce1d7a416ef
+
 
 const Home = () => {
   return (
@@ -29,11 +29,11 @@ const Home = () => {
         </div>
       </div>
       <Album />
-<<<<<<< HEAD
+
       <Counter />
-=======
+
       <Footer/>
->>>>>>> 3ff8cb90f9f89a1ef31e301860a37ce1d7a416ef
+
     </>
   );
 };
