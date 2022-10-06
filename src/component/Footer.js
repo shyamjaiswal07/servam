@@ -34,7 +34,7 @@ const Footer = () => {
               <Box style={{ fontWeight: "600" }}>HELP</Box>
               <Box>Track my order</Box>
               <Box>Buying Guid</Box>
-              <Box>FAQS>></Box>
+              <Box>FAQS</Box>
             </Grid>
             <Grid item xs={12} sm={2.3}>
               <Box style={{ fontWeight: "600" }}>SERVAM OWN</Box>
