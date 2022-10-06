@@ -10,10 +10,10 @@ import award from '../images/award.png'
 import award2 from '../images/award2.png'
 import award3 from '../images/award3.png'
 import award4 from '../images/award4.png'
-import award5 from '../images/award5.png'
-import award6 from '../images/award3.png'
-import award7 from '../images/award2.png'
-import award8 from '../images/award.png'
+// import award5 from '../images/award5.png'
+// import award6 from '../images/award3.png'
+// import award7 from '../images/award2.png'
+// import award8 from '../images/award.png'
 
 const images = [
     {
@@ -28,18 +28,18 @@ const images = [
       {
         imgPath: award4
       },
-      {
-        imgPath: award5
-      },
-      {
-        imgPath: award6
-      },
-      {
-        imgPath: award7
-      },
-      {
-        imgPath: award8
-      },
+      // {
+      //   imgPath: award5
+      // },
+      // {
+      //   imgPath: award6
+      // },
+      // {
+      //   imgPath: award7
+      // },
+      // {
+      //   imgPath: award8
+      // },
   ];
 
 
@@ -53,6 +53,7 @@ export default function Album() {
           <h1>Wall Of Fame</h1>
           <p>All Roads That to succes have to pass through hard work boulevard,at some point of time.</p>
           {/* End hero unit */}
+
           <Grid container spacing={4}>
             {images.map((card) => (
               <Grid item key={card} xs={12} sm={6} md={3}>

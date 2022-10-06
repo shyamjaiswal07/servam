@@ -5,7 +5,7 @@
     margin:20px 0px 20px 0px;
 }
 .quoteTeam > p{
-    flex: 0.8;
+    flex: 0.6;
     font-size: 30px;
     word-spacing: 10px;
     letter-spacing: 3px;
@@ -13,14 +13,14 @@
     color: black;
 }
 .headerTeam{
-    flex: 0.2;
+    flex: 0.4;
     /* margin: 0 0 0 7%; */
     letter-spacing: 7px;
     font-size: 30px;
     font-weight: 700;
 }
 .headingTeam{
-    margin: 5px 70px;
+    margin: 5px 40px;
 }
 .albumTeam{
     padding:25px;

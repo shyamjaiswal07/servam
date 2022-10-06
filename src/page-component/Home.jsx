@@ -1,19 +1,17 @@
 import React from "react";
-import SwipeableTextMobileStepper from "../component/Crousal";
 import "./PageStyles/Home.css";
 import youtube from "../images/youtube.png";
 import Album from "../component/Archeivment";
-
 import Counter from "../component/Counter";
-
 import Footer from "../component/Footer";
 import Albums from "../component/Albums";
+import Crousal from "../component/Crousal";
 
 
 const Home = () => {
   return (
     <>
-      <SwipeableTextMobileStepper  />
+     <Crousal />
       <div className="card_style">
         <div className="shy">
           <div className="imgStyle">
@@ -28,7 +26,7 @@ const Home = () => {
             </p>
             <h4>MISION:</h4>
             <p>  SARVAM SAFETY is your one stop solution provider for in lifeand industrial safety equipment by 
-                    catering to various segments and</p>
+                    catering to various segments an</p>
           </div>
         </div>
       </div>

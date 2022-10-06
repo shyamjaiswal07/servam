@@ -1,16 +1,41 @@
 // import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import './Counter.css'
+import { useInView } from "react-intersection-observer";
 
 const Counter = () => {
+  
+  const [count,setCount] = useState(0);
+  
+  const { ref, inView } = useInView({
+    threshold: 0
+  });
+  console.log(inView);
+
+  useEffect(() => {
+    let interval = setInterval(() => {
+      setCount(count + 1);
+    }, 1);
+    if (count === 6000) {
+      clearInterval(interval);
+    }
+    return () => {
+      clearInterval(interval);
+    };
+  }, [count]);
 
   return (
-    <div className='bg-img'>
+
+    <div  ref={ref} className='bg-img'>
+       <h2>
+          Element is inside the viewport: <strong>{inView.toString()}</strong>
+        </h2>
     <div className='backgroundimg'>
 
        <p className='vision-text1'>SUCCESS IS NOT FINAL;FAILURE IS NOT A FATAL: IT IS THE COURAGE TO CONTINUE THAT COUNTS.</p>
        <div className='client'>
            <div className='amount1'>
-               <div  data-number="2000" class="counter-numbers">6500+</div>
+               <div  data-number="2000" class="counter-numbers">{count}+</div>
                <div className='b2b'>B2B</div>
            </div>
            <div className='amount2'>
