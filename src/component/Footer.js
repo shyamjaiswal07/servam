@@ -72,6 +72,7 @@ const Footer = () => {
           flexDirection: "row",
           padding: "10px",
           marginBottom: "20px",
+          
         }}
       >
         <span
